@@ -1,5 +1,5 @@
 ## 自动化测试小助手项目
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://aquichita-atool-00---u7m8dc.streamlit.app)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://aquichita-atool-00--report-summary-mnqdxe.streamlit.app/)
 
 ---
 
