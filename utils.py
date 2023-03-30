@@ -1,16 +1,14 @@
 import warnings
 from pathlib import Path
 from typing import List
-from loguru import logger
-
+import pandas as pd
 from jinja2 import Environment, FileSystemLoader
 
-import pandas as pd
 
 pd.set_option("display.notebook_repr_html", False)
 
 
-def format_row(row: str) -> List[str]:
+def _format_row(row: str) -> List[str]:
     lines = []
     if pd.isna(row) or not row.strip():
         return lines
@@ -22,7 +20,7 @@ def format_row(row: str) -> List[str]:
     return lines
 
 
-def contents(file: bytes) -> dict:
+def _contents(file: bytes) -> dict:
     with warnings.catch_warnings(record=True):
         warnings.simplefilter("always")
         data = pd.read_excel(io=file, engine="openpyxl", sheet_name=None)
@@ -32,7 +30,7 @@ def contents(file: bytes) -> dict:
             steps = []
             for row in content.values:
                 row = dict(zip(columns, row))
-                row[row.get("角色")] = format_row(row.get(row.get("角色")))
+                row[row.get("角色")] = _format_row(row.get(row.get("角色")))
                 steps.append(row)
             return {"name": name, "steps": steps}
 
@@ -43,4 +41,12 @@ env = Environment(loader=FileSystemLoader(statics))
 
 def case_template(file: bytes):
     case = env.get_template("case.tpl")
-    return case.render(case=contents(file))
+    return case.render(case=_contents(file))
+
+
+"""
+Allure报告数据，此处使用静态文件，生产环境使用实时报告获取.
+# JENKINS_JOB_URL = "http://XXX/job"
+# basic = HTTPBasicAuth("admin", "XXX")
+"""
+examples = Path.cwd().joinpath("examples")

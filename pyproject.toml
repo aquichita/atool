@@ -9,7 +9,6 @@ packages = [{include = "atool"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 streamlit = "^1.20.0"
-loguru = "^0.6.0"
 openpyxl = "^3.1.2"
 
 

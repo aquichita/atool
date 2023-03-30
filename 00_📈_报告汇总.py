@@ -4,7 +4,7 @@ from datetime import datetime
 import streamlit as st
 import pandas as pd
 
-from data import examples
+from utils import examples
 from public import initialize
 
 project, env = initialize.setup(title="⛅ 报告汇总")
@@ -28,7 +28,7 @@ history = read_examples_history()
 
 latest = datetime.now()  # fake
 col_date, *_ = st.columns(3)
-d = col_date.date_input("", latest)
+d = col_date.date_input("选择报告日期", latest)
 st.markdown(
     f"[![执行报告](https://img.shields.io/badge/report-allure-green)](https://allure-framework.github.io/allure-demo)"
 )
