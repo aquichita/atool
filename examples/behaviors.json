@@ -1,0 +1,3550 @@
+{
+    "uid": "b1a8273437954620fa374b796ffaacdd",
+    "name": "behaviors",
+    "children": [
+        {
+            "name": "协同套件",
+            "children": [
+                {
+                    "name": "协同全流程",
+                    "children": [
+                        {
+                            "name": "XT_015：SRM手工申请-订单-物流-结算 | 高",
+                            "uid": "400413812aee7372",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "failed",
+                            "time": {
+                                "start": 1680127297700,
+                                "stop": 1680127537058,
+                                "duration": 239358
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_014：手工创建申请-订单-物流-结算 | 伍",
+                            "uid": "49a2275cbe4cd050",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "failed",
+                            "time": {
+                                "start": 1680127304422,
+                                "stop": 1680127755803,
+                                "duration": 451381
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_031:申请-寻源-协议-订单-物流-结算 | 邓 ",
+                            "uid": "efbbadbbcbdf09e2",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "failed",
+                            "time": {
+                                "start": 1680127307506,
+                                "stop": 1680127915982,
+                                "duration": 608476
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_005:SRM手工申请-订单-协议-物流-结算 |孙",
+                            "uid": "3f81d8988121be8e",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680127313182,
+                                "stop": 1680127576827,
+                                "duration": 263645
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_019:SRM手工申请-寻源-订单-物流-结算 | 雷",
+                            "uid": "754d966d298ab903",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680127322183,
+                                "stop": 1680128106067,
+                                "duration": 783884
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_003: 商城订单-采购申请-采购订单-物流-结算 | 徐",
+                            "uid": "1c8b7146f83a0ea8",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "failed",
+                            "time": {
+                                "start": 1680127339617,
+                                "stop": 1680127535735,
+                                "duration": 196118
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_026：手工创建申请-寻源-协议-订单-物流-结算 |邓",
+                            "uid": "c1682b8ab9edcede",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680127341080,
+                                "stop": 1680128090430,
+                                "duration": 749350
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_001: 商城订单-采购申请-采购订单-物流-结算 | 邓",
+                            "uid": "b98cc01329a0866e",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "failed",
+                            "time": {
+                                "start": 1680127360932,
+                                "stop": 1680127810625,
+                                "duration": 449693
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_OLD_001: 商城订单-采购申请-采购订单-物流-结算 | 徐",
+                            "uid": "b9d39fe8b0d73437",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680127363458,
+                                "stop": 1680127659616,
+                                "duration": 296158
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_OLD_005：申请-寻源-订单 | 伍",
+                            "uid": "18d47261aa9f4786",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680127369876,
+                                "stop": 1680127971092,
+                                "duration": 601216
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_012:商城手工申请-订单-物流-结算 | 陈锦超",
+                            "uid": "abe97dd13527491e",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "failed",
+                            "time": {
+                                "start": 1680127413804,
+                                "stop": 1680127692778,
+                                "duration": 278974
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_004：商城手工申请-订单-物流-结算 | 郝",
+                            "uid": "ea108e1cbf9f8c98",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680127535877,
+                                "stop": 1680127851797,
+                                "duration": 315920
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_024：SRM手工创建申请-寻源-协议-订单-物流-结算 | 高",
+                            "uid": "121c4b425eb9301a",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680127537204,
+                                "stop": 1680127811277,
+                                "duration": 274073
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_009:SRM手工申请-订单-物流-结算 |孙",
+                            "uid": "9937d1df3a32e6a4",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680127577152,
+                                "stop": 1680127828675,
+                                "duration": 251523
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_OLD_002:新电商商城申请-订单 | 陈锦超",
+                            "uid": "899d1636d4f0566f",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680127659683,
+                                "stop": 1680127971992,
+                                "duration": 312309
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_017：外部系统申请-订单-物流-结算 | 伍 ",
+                            "uid": "4d30a8fcc4f56209",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "failed",
+                            "time": {
+                                "start": 1680127692942,
+                                "stop": 1680128160147,
+                                "duration": 467205
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_016：SRM手工申请-订单-物流-结算 | 伍",
+                            "uid": "1673378751f6733d",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680127756008,
+                                "stop": 1680127938392,
+                                "duration": 182384
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_002: 商城订单-采购申请-采购订单-物流-结算 | 孙",
+                            "uid": "b907c52da7ea75b8",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "failed",
+                            "time": {
+                                "start": 1680127810815,
+                                "stop": 1680128213062,
+                                "duration": 402247
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_032：手工创建申请-寻源-协议-订单-物流-结算 | 高",
+                            "uid": "285db74c33cde7da",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680127811435,
+                                "stop": 1680128134321,
+                                "duration": 322886
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_013:SRM手工申请-订单-物流-结算 |孙",
+                            "uid": "f37cbc13617a88d2",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "failed",
+                            "time": {
+                                "start": 1680127828857,
+                                "stop": 1680128560668,
+                                "duration": 731811
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_008：商城电商申请-订单-物流-结算 | 徐",
+                            "uid": "e6d9dcb7ce3a413c",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680127852018,
+                                "stop": 1680128915981,
+                                "duration": 1063963
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_038:计划排程-物流-结算 | 郝 ",
+                            "uid": "ed04cab9e46fd96b",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680127916164,
+                                "stop": 1680128186127,
+                                "duration": 269963
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_OLD_006：申请-寻源-订单 | 伍",
+                            "uid": "c6ade99efbfcce57",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "failed",
+                            "time": {
+                                "start": 1680127971229,
+                                "stop": 1680128494726,
+                                "duration": 523497
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_OLD_003：SRM申请-订单-物流-结算 |徐",
+                            "uid": "ee20b6842b40c52a",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680127972049,
+                                "stop": 1680128086360,
+                                "duration": 114311
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_OLD_004：商城手工申请-订单 | 郝",
+                            "uid": "bf5183ef999021a3",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128086432,
+                                "stop": 1680128275385,
+                                "duration": 188953
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_027：srm手工申请-寻源-协议-订单-物流-结算 | 徐",
+                            "uid": "803d71e77135f48c",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128090713,
+                                "stop": 1680128842316,
+                                "duration": 751603
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_033：SRM手工创建申请-寻源-协议-订单-物流-结算 | 高",
+                            "uid": "ef26537c441f60ae",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128134524,
+                                "stop": 1680128487910,
+                                "duration": 353386
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_018：手工创建申请-订单-物流-结算 | 伍",
+                            "uid": "ef6a656988f107aa",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128160325,
+                                "stop": 1680128450328,
+                                "duration": 290003
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_006:SRM手工申请-订单-物流-结算 |孙",
+                            "uid": "ee86bd68fde118db",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128213298,
+                                "stop": 1680129136220,
+                                "duration": 922922
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_023:外部系统申请-寻源-协议-订单-物流-结算 | 邓 ",
+                            "uid": "a7db0ad4c459e15d",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128450456,
+                                "stop": 1680129216016,
+                                "duration": 765560
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_OLD_007：申请-寻源-订单 | 伍",
+                            "uid": "dbd8c1a665ea8620",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128494853,
+                                "stop": 1680128855820,
+                                "duration": 360967
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_029：srm手工申请-寻源-协议-订单-物流-结算 |邓",
+                            "uid": "38f99daf386abb8f",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128842520,
+                                "stop": 1680129137439,
+                                "duration": 294919
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_OLD_008:手工申请-寻源-协议-订单-物流-结算 |孙",
+                            "uid": "68431f42d08cb3cc",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128855927,
+                                "stop": 1680129124646,
+                                "duration": 268719
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_010：商城电商申请-订单-物流-结算 | 郝",
+                            "uid": "fa44a2e3b7c58b9e",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128916145,
+                                "stop": 1680129536223,
+                                "duration": 620078
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_084:订单-物流-结算-订单关闭 | 徐 ",
+                            "uid": "af965be705081b58",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680129071564,
+                                "stop": 1680129223477,
+                                "duration": 151913
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_OLD_009:申请-寻源-协议-订单 | 雷 ",
+                            "uid": "2656bd78820db96d",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680129124833,
+                                "stop": 1680129678414,
+                                "duration": 553581
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_007: 商城订单-采购申请-采购订单-物流-结算 | 徐",
+                            "uid": "5060009e258172f",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680129136533,
+                                "stop": 1680129647277,
+                                "duration": 510744
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_030：srm手工申请-寻源-协议-订单-物流-结算 |邓",
+                            "uid": "f1588d68bafb4090",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680129137579,
+                                "stop": 1680129907082,
+                                "duration": 769503
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_025：外部系统申请-寻源-协议-订单-物流-结算 |邓",
+                            "uid": "89d63f2ec187de46",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680129216219,
+                                "stop": 1680130392943,
+                                "duration": 1176724
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_011: 商城订单-采购申请-采购订单-物流-结算 | 徐",
+                            "uid": "21527da7b9767020",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680129536371,
+                                "stop": 1680129888303,
+                                "duration": 351932
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_086:发货工作台 | 邓 ",
+                            "uid": "b7d86223710dc6f3",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680129647374,
+                                "stop": 1680130242030,
+                                "duration": 594656
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_OLD_010:手工申请-协议-订单-物流-结算 |孙",
+                            "uid": "7451a351cc4c3205",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680129678528,
+                                "stop": 1680129887281,
+                                "duration": 208753
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_021:商城手工-寻源-订单-物流-结算 | 陈锦超",
+                            "uid": "b07812e42938e95",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680129888480,
+                                "stop": 1680130596381,
+                                "duration": 707901
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_044：协议-物流-结算 | 徐",
+                            "uid": "5f841f5fdfad6e17",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680129907293,
+                                "stop": 1680130305564,
+                                "duration": 398271
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_087:发货工作台 | 邓 ",
+                            "uid": "83f07a2e1db7f7ef",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680130242238,
+                                "stop": 1680131130093,
+                                "duration": 887855
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_045：协议-物流-结算 | 徐",
+                            "uid": "543b0b00d2475365",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680130305699,
+                                "stop": 1680130654013,
+                                "duration": 348314
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_028：外部系统申请-寻源-协议-订单-物流-结算 |邓",
+                            "uid": "d0d317b00767c3b6",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680130393205,
+                                "stop": 1680131243702,
+                                "duration": 850497
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_022:商城手工申请-寻源-订单-物流-结算 | 陈锦超",
+                            "uid": "37c8c5ac42703258",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680130596557,
+                                "stop": 1680131047059,
+                                "duration": 450502
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_046：协议-物流-结算 | 徐",
+                            "uid": "14860f3ce1a0ecce",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680130654120,
+                                "stop": 1680130984958,
+                                "duration": 330838
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_047：协议-物流-结算 | 徐",
+                            "uid": "37e876bb5c2a0b9e",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680130985130,
+                                "stop": 1680131247296,
+                                "duration": 262166
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_048：协议-物流-结算 | 徐",
+                            "uid": "1184929b72591aee",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680131247397,
+                                "stop": 1680131476337,
+                                "duration": 228940
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_020:SRM手工申请-寻源-订单-物流-结算 | 雷",
+                            "uid": "3d56f0b2d5a23c8d",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680132839781,
+                                "stop": 1680133807444,
+                                "duration": 967663
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_140:外部系统订单-物流发货收货-结算 | 徐",
+                            "uid": "8e20a1c2db253678",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680133807822,
+                                "stop": 1680134313500,
+                                "duration": 505678
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_OLD_011：手工订单-物流-结算 |邓",
+                            "uid": "196e249158ca88c3",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680134471229,
+                                "stop": 1680134617858,
+                                "duration": 146629
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_OLD_012：外部系统订单-物流-结算 |邓",
+                            "uid": "525d4352381baeac",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680134617915,
+                                "stop": 1680134925398,
+                                "duration": 307483
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_OLD_013:外部系统订单-订单取消 | 高",
+                            "uid": "30f2137b296add59",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680134925518,
+                                "stop": 1680134996601,
+                                "duration": 71083
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_OLD_014:外部系统订单-订单关闭 | 高",
+                            "uid": "f0ab84c7aa2455d9",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680134996642,
+                                "stop": 1680135093515,
+                                "duration": 96873
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_OLD_015：寄售库存消耗物流-结算 |邓",
+                            "uid": "71fe2aad593db714",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680135093579,
+                                "stop": 1680135140490,
+                                "duration": 46911
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_OLD_016:外部系统订单-发布-确认-同步外部系统-外部系统订单变更-回传srm-发布-确认 | 高",
+                            "uid": "27b7f77b0a759df3",
+                            "parentUid": "db4f7fdd37a4b604ce6bd385a06064c3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680135140526,
+                                "stop": 1680135246503,
+                                "duration": 105977
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        }
+                    ],
+                    "uid": "db4f7fdd37a4b604ce6bd385a06064c3"
+                },
+                {
+                    "name": "申请子流程",
+                    "children": [
+                        {
+                            "name": "XT_058：申请取消&变更 | 伍",
+                            "uid": "1b9635207fa2055d",
+                            "parentUid": "2f06de08f2097ed69e7810a2bf0dd4d6",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680127938533,
+                                "stop": 1680128036293,
+                                "duration": 97760
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_059：申请取消&变更 | 伍",
+                            "uid": "971f3cb6fee9bc5b",
+                            "parentUid": "2f06de08f2097ed69e7810a2bf0dd4d6",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128036323,
+                                "stop": 1680128094115,
+                                "duration": 57792
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_060：申请取消&变更 | 伍",
+                            "uid": "d632777d8323c009",
+                            "parentUid": "2f06de08f2097ed69e7810a2bf0dd4d6",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128094464,
+                                "stop": 1680128144085,
+                                "duration": 49621
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_034:申请-寻源-协议(仅寻源) | 雷",
+                            "uid": "ba416e003d751457",
+                            "parentUid": "2f06de08f2097ed69e7810a2bf0dd4d6",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128106520,
+                                "stop": 1680128220317,
+                                "duration": 113797
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_061： 申请取消&变更 | 伍",
+                            "uid": "36b2476cacbf7171",
+                            "parentUid": "2f06de08f2097ed69e7810a2bf0dd4d6",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128144111,
+                                "stop": 1680128188037,
+                                "duration": 43926
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_062：需求计划子流程 | 伍",
+                            "uid": "3ed1fea805358a11",
+                            "parentUid": "2f06de08f2097ed69e7810a2bf0dd4d6",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128188056,
+                                "stop": 1680128260684,
+                                "duration": 72628
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_035:申请-自动分配-按条件接入--仅涉及需求模块 | 雷",
+                            "uid": "b9d3be45dd8d07cc",
+                            "parentUid": "2f06de08f2097ed69e7810a2bf0dd4d6",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128220362,
+                                "stop": 1680128362286,
+                                "duration": 141924
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_063：需求计划子流程 | 伍",
+                            "uid": "23857d415ee64b43",
+                            "parentUid": "2f06de08f2097ed69e7810a2bf0dd4d6",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128260718,
+                                "stop": 1680128359188,
+                                "duration": 98470
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_064：需求计划子流程 | 伍",
+                            "uid": "c1ad7901284b02c2",
+                            "parentUid": "2f06de08f2097ed69e7810a2bf0dd4d6",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128359223,
+                                "stop": 1680128423166,
+                                "duration": 63943
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_065：需求计划子流程 | 伍",
+                            "uid": "cf5d5cdb97aab74c",
+                            "parentUid": "2f06de08f2097ed69e7810a2bf0dd4d6",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128423191,
+                                "stop": 1680128491610,
+                                "duration": 68419
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_OLD_022:申请取消&变更 | 郝 ",
+                            "uid": "41f1994b02fa39bf",
+                            "parentUid": "2f06de08f2097ed69e7810a2bf0dd4d6",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128526434,
+                                "stop": 1680128709535,
+                                "duration": 183101
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_103：创建预测单-月度预测 | 高 ",
+                            "uid": "8af2defb80549785",
+                            "parentUid": "2f06de08f2097ed69e7810a2bf0dd4d6",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128561479,
+                                "stop": 1680128568702,
+                                "duration": 7223
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_104：创建预测单-项目预测 | 高 ",
+                            "uid": "df037a63101f50bd",
+                            "parentUid": "2f06de08f2097ed69e7810a2bf0dd4d6",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128568712,
+                                "stop": 1680128571266,
+                                "duration": 2554
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_105：关闭预测单-月度预测 | 高 ",
+                            "uid": "f684daf09c376cc9",
+                            "parentUid": "2f06de08f2097ed69e7810a2bf0dd4d6",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128571272,
+                                "stop": 1680128575231,
+                                "duration": 3959
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_130:需求计划 | 徐",
+                            "uid": "1f4256e48dcf81bd",
+                            "parentUid": "2f06de08f2097ed69e7810a2bf0dd4d6",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128685467,
+                                "stop": 1680128693522,
+                                "duration": 8055
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_131:需求-预测单 | 徐",
+                            "uid": "1890885c534b5c32",
+                            "parentUid": "2f06de08f2097ed69e7810a2bf0dd4d6",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128693534,
+                                "stop": 1680128714621,
+                                "duration": 21087
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_OLD_023:申请取消&变更 | 郝 ",
+                            "uid": "6b07f991a0bf27b2",
+                            "parentUid": "2f06de08f2097ed69e7810a2bf0dd4d6",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128709576,
+                                "stop": 1680128904895,
+                                "duration": 195319
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_132:预测管理 | 邓",
+                            "uid": "cbcb115557c28fc5",
+                            "parentUid": "2f06de08f2097ed69e7810a2bf0dd4d6",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128714651,
+                                "stop": 1680128734036,
+                                "duration": 19385
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_133:需求-预测单 | 徐",
+                            "uid": "dcbf5da024228a6f",
+                            "parentUid": "2f06de08f2097ed69e7810a2bf0dd4d6",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128734088,
+                                "stop": 1680128739137,
+                                "duration": 5049
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_056:申请取消&变更 | 郝 ",
+                            "uid": "2b48707dc53541ac",
+                            "parentUid": "2f06de08f2097ed69e7810a2bf0dd4d6",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128734903,
+                                "stop": 1680128792247,
+                                "duration": 57344
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_134:需求-预测单 | 徐",
+                            "uid": "8821690f33f91492",
+                            "parentUid": "2f06de08f2097ed69e7810a2bf0dd4d6",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128739153,
+                                "stop": 1680128758956,
+                                "duration": 19803
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_096：需求计划子流程 | 伍",
+                            "uid": "1f19e5c5f8392732",
+                            "parentUid": "2f06de08f2097ed69e7810a2bf0dd4d6",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128746389,
+                                "stop": 1680128795750,
+                                "duration": 49361
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_135:需求-预测单 | 徐",
+                            "uid": "20607bba5617e314",
+                            "parentUid": "2f06de08f2097ed69e7810a2bf0dd4d6",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128759009,
+                                "stop": 1680128766651,
+                                "duration": 7642
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_057:申请取消&变更 | 徐 ",
+                            "uid": "d4a614ce8de25aad",
+                            "parentUid": "2f06de08f2097ed69e7810a2bf0dd4d6",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128792264,
+                                "stop": 1680128830595,
+                                "duration": 38331
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_050:SRM手工-手工提交-无需审批-手动分配-允许变更-已审批状态下变更-变更无需审批-不回传ERP-转单后关闭预算-租户级-余额不足提醒-设置提醒阶段-预算规则无配置-预算在有效期内 |孙",
+                            "uid": "9cd252955a35e5e4",
+                            "parentUid": "2f06de08f2097ed69e7810a2bf0dd4d6",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128897424,
+                                "stop": 1680129015408,
+                                "duration": 117984
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_OLD_024：申请变更&取消 |徐",
+                            "uid": "b8f3d4ec10b2bcb1",
+                            "parentUid": "2f06de08f2097ed69e7810a2bf0dd4d6",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128904939,
+                                "stop": 1680128938832,
+                                "duration": 33893
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_OLD_025：申请变更&取消 | 徐",
+                            "uid": "f0b801fb8077200c",
+                            "parentUid": "2f06de08f2097ed69e7810a2bf0dd4d6",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128938851,
+                                "stop": 1680128970525,
+                                "duration": 31674
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_OLD_026:申请取消&变更 | 郝 ",
+                            "uid": "3b4f7dbc4e65382a",
+                            "parentUid": "2f06de08f2097ed69e7810a2bf0dd4d6",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128970553,
+                                "stop": 1680129022510,
+                                "duration": 51957
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_051:SRM手工-手工提交-无需审批-手动分配-不允许变更-部分转下游单据后关闭预算-公司级-允差占用-余额不足不提醒-预算科目|孙",
+                            "uid": "95a30df2caa4c44",
+                            "parentUid": "2f06de08f2097ed69e7810a2bf0dd4d6",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680129015439,
+                                "stop": 1680129277765,
+                                "duration": 262326
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_052:SRM手工-手工提交-无需审批-手动分配-变更数量需要大于已执行数量-变更无需审批-需要回传至ERP-部分转下游单据后关闭 |孙",
+                            "uid": "8faede2d00b21a65",
+                            "parentUid": "2f06de08f2097ed69e7810a2bf0dd4d6",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680129277824,
+                                "stop": 1680129431253,
+                                "duration": 153429
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_097:预算配置组合1 | 雷 ",
+                            "uid": "f41c5dd0138f9c52",
+                            "parentUid": "2f06de08f2097ed69e7810a2bf0dd4d6",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680129776172,
+                                "stop": 1680129817735,
+                                "duration": 41563
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_098:预算配置组合2 | 雷 ",
+                            "uid": "3202be5fa1031873",
+                            "parentUid": "2f06de08f2097ed69e7810a2bf0dd4d6",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680129817755,
+                                "stop": 1680129856419,
+                                "duration": 38664
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_099:预算配置组合3 | 雷",
+                            "uid": "1231a3014205e4a4",
+                            "parentUid": "2f06de08f2097ed69e7810a2bf0dd4d6",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680129856433,
+                                "stop": 1680129893435,
+                                "duration": 37002
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_100:预算配置组合4 | 雷",
+                            "uid": "350753e9857faf2b",
+                            "parentUid": "2f06de08f2097ed69e7810a2bf0dd4d6",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680129893453,
+                                "stop": 1680129928127,
+                                "duration": 34674
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_101:预算配置组合5 | 雷",
+                            "uid": "2e873637aec3effb",
+                            "parentUid": "2f06de08f2097ed69e7810a2bf0dd4d6",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680129928142,
+                                "stop": 1680129965460,
+                                "duration": 37318
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_102:预算配置组合6 | 雷",
+                            "uid": "9213af54f9679e4c",
+                            "parentUid": "2f06de08f2097ed69e7810a2bf0dd4d6",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680129965477,
+                                "stop": 1680129999308,
+                                "duration": 33831
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_036:SAP申请转寻源/SAP申请转订单 | 雷 ",
+                            "uid": "9a0b1b197b5c38f3",
+                            "parentUid": "2f06de08f2097ed69e7810a2bf0dd4d6",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680131243937,
+                                "stop": 1680131435606,
+                                "duration": 191669
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_053:外部系统申请-手工提交-无需审批-手动分配-走变更-变更审批无需审批-部分转下游单据后关闭|孙",
+                            "uid": "80f57646ca7a5b3",
+                            "parentUid": "2f06de08f2097ed69e7810a2bf0dd4d6",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680131812092,
+                                "stop": 1680131983614,
+                                "duration": 171522
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_054:外部系统申请-手工提交-无需审批-走变更-变更功能审批-外部系统来源审批允许新增行-走取消-取消无需审批 |孙",
+                            "uid": "2141e4249bd3d1a1",
+                            "parentUid": "2f06de08f2097ed69e7810a2bf0dd4d6",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680131983662,
+                                "stop": 1680132218771,
+                                "duration": 235109
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_055:申请取消&变更 | 郝 ",
+                            "uid": "ee72bde6d6caf6b1",
+                            "parentUid": "2f06de08f2097ed69e7810a2bf0dd4d6",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680132218796,
+                                "stop": 1680132316792,
+                                "duration": 97996
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_OLD_019:申请-寻源-协议 |孙",
+                            "uid": "974535d0c5a17c61",
+                            "parentUid": "2f06de08f2097ed69e7810a2bf0dd4d6",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680135246546,
+                                "stop": 1680135468194,
+                                "duration": 221648
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_OLD_020:申请-寻源 |孙",
+                            "uid": "94ff206963342d47",
+                            "parentUid": "2f06de08f2097ed69e7810a2bf0dd4d6",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680135468236,
+                                "stop": 1680135656069,
+                                "duration": 187833
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_OLD_021:申请-寻源&申请-订单 |孙",
+                            "uid": "e708aa082b3dd41b",
+                            "parentUid": "2f06de08f2097ed69e7810a2bf0dd4d6",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680135656102,
+                                "stop": 1680135890562,
+                                "duration": 234460
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        }
+                    ],
+                    "uid": "2f06de08f2097ed69e7810a2bf0dd4d6"
+                },
+                {
+                    "name": "需求主数据",
+                    "children": [
+                        {
+                            "name": "XQZSJ_001:需求主数据-物料管理-手工新建物料-保存-查询-修改-查询-作废-再查询 | 陈锦超",
+                            "uid": "a941bc994cd49c14",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128027119,
+                                "stop": 1680128043050,
+                                "duration": 15931
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_002:需求主数据-物料管理-物料头信息导入-物料行信息导入-查询-物料导出-物料作废-查询（新） | 陈锦超",
+                            "uid": "7e2ff9eaff9a3a0",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128043068,
+                                "stop": 1680128073338,
+                                "duration": 30270
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_003:需求主数据-物料管理-物料头信息导入-物料行信息导入-查询-物料导出-物料作废-查询（老） | 陈锦超",
+                            "uid": "bcffac9295d5ae1f",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128073349,
+                                "stop": 1680128094696,
+                                "duration": 21347
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_004:需求主数据-物料申请单-手工新建物料-保存-查询-变更-查询-作废-再查询 | 陈锦超",
+                            "uid": "1a8f4bb0fdaac5fb",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128094709,
+                                "stop": 1680128159070,
+                                "duration": 64361
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_005:需求主数据-物料申请单-手工新建物料-保存-查询-变更-查询-作废-再查询 | 陈锦超",
+                            "uid": "358c25f576f6077a",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128159090,
+                                "stop": 1680128207767,
+                                "duration": 48677
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_006:需求主数据-物料申请单-手工新建物料-保存-查询-变更-查询-作废-再查询 | 陈锦超",
+                            "uid": "168528fa45d84208",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128207785,
+                                "stop": 1680128225452,
+                                "duration": 17667
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_007:需求主数据-物料申请单-手工新建物料-保存-查询-变更-查询-作废-再查询 | 陈锦超",
+                            "uid": "860d9158e4588c84",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128225465,
+                                "stop": 1680128280385,
+                                "duration": 54920
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_008:需求主数据-物料管理-物料查询-新导出 | 陈锦超",
+                            "uid": "a222ae813e94f172",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128280417,
+                                "stop": 1680128306009,
+                                "duration": 25592
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_009:需求主数据-物料管理-物料查询-导出 | 陈锦超",
+                            "uid": "4e830507997de738",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128306075,
+                                "stop": 1680128327800,
+                                "duration": 21725
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_010:需求主数据-品类定义-手工新建品类-查询-修改-查询-禁用-查询 | 陈锦超",
+                            "uid": "cda4bd499e7944df",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128327891,
+                                "stop": 1680128332150,
+                                "duration": 4259
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_011:需求主数据-品类定义-批量导入-分配物料导入-分配采购员导入-查询-导出（新） | 陈锦超",
+                            "uid": "ec95e7245113c774",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128332156,
+                                "stop": 1680128404122,
+                                "duration": 71966
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_012:需求主数据-品类定义-批量导入-分配物料导入-分配采购员导入-查询-导出（老） | 陈锦超",
+                            "uid": "524bb8075ea34e9e",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128404135,
+                                "stop": 1680128461146,
+                                "duration": 57011
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_013:需求主数据-组织架构-新增组织-查询-修改-查询-禁用-查询-部门导出 | 陈锦超",
+                            "uid": "d28f47fbf277041e",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128461166,
+                                "stop": 1680128486598,
+                                "duration": 25432
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_014:需求主数据-组织架构-新导入-查询-新导出（新） | 陈锦超",
+                            "uid": "d0a328c7f347e6d6",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128486608,
+                                "stop": 1680128501164,
+                                "duration": 14556
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_015:需求主数据-组织架构-导入-查询-导出（老） | 陈锦超",
+                            "uid": "e4fb7b8e7545a578",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128501168,
+                                "stop": 1680128513180,
+                                "duration": 12012
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_016:需求主数据-员工定义-新建-查询-修改-查询-禁用-查询 | 陈锦超",
+                            "uid": "711335b20c17e6bc",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128513187,
+                                "stop": 1680128518899,
+                                "duration": 5712
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_017:需求主数据-员工定义-新导入-查询-新导出（新） | 陈锦超",
+                            "uid": "655ee8b1c72e2bc2",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128518908,
+                                "stop": 1680128542654,
+                                "duration": 23746
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_018:需求主数据-员工定义-导入-查询-导出（老） | 陈锦超",
+                            "uid": "838990362e5716db",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128542660,
+                                "stop": 1680128568978,
+                                "duration": 26318
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_019:业务组织信息-采购组织：新建-查询-修改-查询-禁用-查询 |孙",
+                            "uid": "ca5b9690f9ed29ee",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128568984,
+                                "stop": 1680128570244,
+                                "duration": 1260
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_020:业务组织信息-采购组织：新导入-查询-导出（新） |孙",
+                            "uid": "c509e855fd0a1821",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128570250,
+                                "stop": 1680128580780,
+                                "duration": 10530
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_021:业务组织信息-采购组织：导入-查询-导出（老） |孙",
+                            "uid": "36a74eb46fd0f3ff",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128580784,
+                                "stop": 1680128588233,
+                                "duration": 7449
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_022:业务组织信息-采购员：新建-查询-修改-查询-禁用-查询 |孙",
+                            "uid": "928fa2da9f914045",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128588238,
+                                "stop": 1680128589609,
+                                "duration": 1371
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_023:业务组织信息-采购员：新导入-查询-导出（新） |孙",
+                            "uid": "ff8a5edf6f81355c",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128589614,
+                                "stop": 1680128599626,
+                                "duration": 10012
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_024:业务组织信息-采购员：导入-查询-导出（老） |孙",
+                            "uid": "4faded9e28702ed3",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128599629,
+                                "stop": 1680128606952,
+                                "duration": 7323
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_025:业务组织信息-业务实体-新建-查询-修改-查询-禁用-查询 | 徐",
+                            "uid": "f261df62b45399a2",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128606957,
+                                "stop": 1680128609131,
+                                "duration": 2174
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_026:业务组织信息-业务实体-新导入-查询-导出（新）| 徐",
+                            "uid": "df776b729b1bb7f",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128609135,
+                                "stop": 1680128619377,
+                                "duration": 10242
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_027:业务组织信息-业务实体-导入-查询-导出（老）| 徐",
+                            "uid": "b68a14da7be9532d",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128619382,
+                                "stop": 1680128627401,
+                                "duration": 8019
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_028:业务组织信息-业务实体-新建-查询-修改-查询-禁用-查询| 徐",
+                            "uid": "731c285c080af510",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128627406,
+                                "stop": 1680128629256,
+                                "duration": 1850
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_029:业务组织信息-库存组织-新导入-查询-导出（新）| 徐",
+                            "uid": "8a2801374b098b54",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128629261,
+                                "stop": 1680128640063,
+                                "duration": 10802
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_030:业务组织信息-库存组织-导入-查询-导出（老）| 徐",
+                            "uid": "509c3c26b73b6018",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128640066,
+                                "stop": 1680128647928,
+                                "duration": 7862
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_031:业务组织信息-库房-新建-查询-修改-查询-禁用-查询 | 徐",
+                            "uid": "74701370dc4c656d",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128647933,
+                                "stop": 1680128654613,
+                                "duration": 6680
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_032:业务组织信息-库房-新导入-查询-导出（新）| 徐 ",
+                            "uid": "b584cc5af64379a8",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128654619,
+                                "stop": 1680128666261,
+                                "duration": 11642
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_033:业务组织信息-库房-导入-查询-导出（老）| 徐 ",
+                            "uid": "f904c63f88766d94",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128666267,
+                                "stop": 1680128675392,
+                                "duration": 9125
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_034:业务组织信息-库位-新建-查询-修改-查询-禁用-查询 | 徐 ",
+                            "uid": "b24ddc923fc74490",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128675397,
+                                "stop": 1680128683021,
+                                "duration": 7624
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_035:业务组织信息-库位-新导入-查询-导出（新）| 徐",
+                            "uid": "43e84ca9f64cb890",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128683026,
+                                "stop": 1680128694123,
+                                "duration": 11097
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_036:业务组织信息-库位-导入-查询-导出（老）| 徐",
+                            "uid": "30ed6ed137be3642",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128694127,
+                                "stop": 1680128703158,
+                                "duration": 9031
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_037:业务通知单-新建-查询-删除-查询 | 徐",
+                            "uid": "3d9c099d80a46f78",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128703162,
+                                "stop": 1680128706097,
+                                "duration": 2935
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_038:业务通知单-新建-查询-签署-查询 | 徐",
+                            "uid": "51c6cedddc535201",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128706104,
+                                "stop": 1680128708931,
+                                "duration": 2827
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_039:成本中心定义-新建-查询-修改-查询-禁用-查询 | 徐",
+                            "uid": "f1802033f2ba469",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128708938,
+                                "stop": 1680128710313,
+                                "duration": 1375
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_040:成本中心定义-新导入-查询（新）| 徐",
+                            "uid": "92567e32cbfe918b",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128710317,
+                                "stop": 1680128715623,
+                                "duration": 5306
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_041:成本中心定义-导入-查询（老）| 徐",
+                            "uid": "5dc94c97c97e2968",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128715627,
+                                "stop": 1680128722335,
+                                "duration": 6708
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_042:计量单位类型定义-新建-查询-修改-查询-禁用-查询 | 徐",
+                            "uid": "adbcd7a1dd18e2f3",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128722338,
+                                "stop": 1680128723631,
+                                "duration": 1293
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_043:计量单位定义-新建-查询-修改-查询-禁用-查询 | 徐",
+                            "uid": "f1c7e0fcce195d55",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128723636,
+                                "stop": 1680128724813,
+                                "duration": 1177
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_044:计量单位定义-新导入-查询（新）| 徐 ",
+                            "uid": "6fd15b7e093a39ab",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128724818,
+                                "stop": 1680128730024,
+                                "duration": 5206
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_045:计量单位定义-导入-查询（老）| 徐",
+                            "uid": "8bb284aaef5d7cf0",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128730028,
+                                "stop": 1680128736872,
+                                "duration": 6844
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_046:计量单位定义-计量单位显示配置-是（默认）| 高",
+                            "uid": "f43b189462f706c2",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128736877,
+                                "stop": 1680128749122,
+                                "duration": 12245
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_047:计量单位定义-计量单位显示配置-是 | 高",
+                            "uid": "88d48a34daf82e06",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128749126,
+                                "stop": 1680128763723,
+                                "duration": 14597
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_048:计量单位定义-计量单位显示配置-否 | 高",
+                            "uid": "bed1a3a8466a1f13",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128763728,
+                                "stop": 1680128777944,
+                                "duration": 14216
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_049:总账科目定义-新建-查询-修改-查询-禁用-查询 | 高",
+                            "uid": "a1ee22bfaffef9ad",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128777949,
+                                "stop": 1680128779107,
+                                "duration": 1158
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_050:总账科目定义-新导入-查询（新）| 高",
+                            "uid": "10b594e084a620bf",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128779113,
+                                "stop": 1680128784583,
+                                "duration": 5470
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_051:总账科目定义-导入-查询（老）| 高",
+                            "uid": "f5baf19c1da10a55",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128784587,
+                                "stop": 1680128791331,
+                                "duration": 6744
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_052:WBS元素定义：新建-查询-修改-查询-禁用-查询 |孙",
+                            "uid": "37a337947ccd7a57",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128791335,
+                                "stop": 1680128792556,
+                                "duration": 1221
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_053:WBS元素定义：新导入-查询（新） |孙",
+                            "uid": "74d499eae6344345",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128792561,
+                                "stop": 1680128798015,
+                                "duration": 5454
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_054:WBS元素定义：导入-查询（老） |孙",
+                            "uid": "37bf2f7cc5ea4e1d",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128798020,
+                                "stop": 1680128804921,
+                                "duration": 6901
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_055:预算科目定义：新建-查询-修改-查询-禁用-查询 |孙",
+                            "uid": "ca1089944f4198f3",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128804925,
+                                "stop": 1680128805900,
+                                "duration": 975
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_056:预算科目定义：新导入-查询（新） |孙",
+                            "uid": "3d5aa99d7c3fdd84",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128805907,
+                                "stop": 1680128811810,
+                                "duration": 5903
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_057:预算科目定义：导入-查询（老） |孙",
+                            "uid": "39e9654b60714d2c",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128811815,
+                                "stop": 1680128818523,
+                                "duration": 6708
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_058:需求主数据-币种定义-查询-禁用-查询 | 陈锦超",
+                            "uid": "aa718c6bac46e536",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128818528,
+                                "stop": 1680128819094,
+                                "duration": 566
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_059:需求主数据-税率定义-新建-查询-修改-查询-禁用-查询 | 陈锦超",
+                            "uid": "4fdb33a18a8b3cad",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128819097,
+                                "stop": 1680128821142,
+                                "duration": 2045
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_060:需求主数据-汇款类型定义-查询-禁用-查询 | 陈锦超",
+                            "uid": "5ca4cd3fe92bbccf",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128821150,
+                                "stop": 1680128821834,
+                                "duration": 684
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_061:需求主数据-汇款定义-新建-查询-修改-查询-禁用-查询 | 陈锦超",
+                            "uid": "80ed540392b001ab",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128821839,
+                                "stop": 1680128823328,
+                                "duration": 1489
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_062:需求主数据-汇款定义-新批量导入-查询（新） | 陈锦超",
+                            "uid": "dcb57a9550fbbfe",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128823334,
+                                "stop": 1680128828690,
+                                "duration": 5356
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_063:需求主数据-汇款定义-批量导入-查询（老） | 陈锦超",
+                            "uid": "81f8deb8e6998139",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128828695,
+                                "stop": 1680128880292,
+                                "duration": 51597
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_064:需求主数据-付款条款定义-新建-查询-修改-查询-禁用-查询 | 陈锦超",
+                            "uid": "301249fef16f74d6",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128880298,
+                                "stop": 1680128881982,
+                                "duration": 1684
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_065:需求主数据-付款条款定义-新批量导入-查询（新） | 陈锦超",
+                            "uid": "a523f7ac28ad4c47",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128881987,
+                                "stop": 1680128887615,
+                                "duration": 5628
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_066:需求主数据-付款条款定义-批量导入-查询（老） | 陈锦超",
+                            "uid": "6e0af732014ee281",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128887620,
+                                "stop": 1680128894796,
+                                "duration": 7176
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_067:需求主数据-付款方式定义-新建-查询-修改-查询-禁用-查询 | 陈锦超",
+                            "uid": "a27f063a28ff1674",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128894799,
+                                "stop": 1680128895605,
+                                "duration": 806
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_068:需求主数据-期间定义-新建-查询-修改-查询-禁用-查询 | 陈锦超",
+                            "uid": "320f91c184d5e660",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128895610,
+                                "stop": 1680128896824,
+                                "duration": 1214
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_070:需求主数据-项目信息维护-新建-查询-修改-查询-禁用-查询 |郝",
+                            "uid": "92656d4d78d3c535",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128896830,
+                                "stop": 1680128899316,
+                                "duration": 2486
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_071:需求主数据-项目信息维护-新建-查询-修改-查询-禁用-查询 |郝",
+                            "uid": "aeeedc62f93459bd",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128899323,
+                                "stop": 1680128902149,
+                                "duration": 2826
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_072:需求主数据-项目信息维护-新建-查询-删除-查询 |郝",
+                            "uid": "a93a332789b5ffe5",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128902156,
+                                "stop": 1680128903146,
+                                "duration": 990
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_073:需求主数据-项目信息维护-导出 |郝",
+                            "uid": "dade5a85fb28f350",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128903152,
+                                "stop": 1680128908106,
+                                "duration": 4954
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_074:需求主数据-项目信息维护-导出 |郝",
+                            "uid": "41c6ea30cdad7ddb",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128908111,
+                                "stop": 1680128908870,
+                                "duration": 759
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_075:需求主数据-品类属性与模版管理-属性定义 |郝",
+                            "uid": "4c8d3246542ca41f",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128908873,
+                                "stop": 1680128909898,
+                                "duration": 1025
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_076:需求主数据-品类属性与模版管理-属性值定义 |郝",
+                            "uid": "2724c94b8ab11519",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128909902,
+                                "stop": 1680128911017,
+                                "duration": 1115
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_077:需求主数据-品类属性与模版管理-属性模板管理 |郝",
+                            "uid": "543069abdb79d5e9",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128911021,
+                                "stop": 1680128913120,
+                                "duration": 2099
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XQZSJ_078:需求主数据-按钮权限集-默认不显示的按钮权限集验证 |郝",
+                            "uid": "6e3d82de8cbf18cf",
+                            "parentUid": "cf994ca20f908b92837275d941b3b933",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128913126,
+                                "stop": 1680129813711,
+                                "duration": 900585
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        }
+                    ],
+                    "uid": "cf994ca20f908b92837275d941b3b933"
+                },
+                {
+                    "name": "物流子流程",
+                    "children": [
+                        {
+                            "name": "XT_039:计划排程-物流 | 郝 ",
+                            "uid": "f31fd7f96ee57285",
+                            "parentUid": "44a6ab3e1c0014be3dab7192254b9575",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128186316,
+                                "stop": 1680128480882,
+                                "duration": 294566
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_043:计划排程-物流 | 雷 ",
+                            "uid": "5292650be9fe4586",
+                            "parentUid": "44a6ab3e1c0014be3dab7192254b9575",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128362342,
+                                "stop": 1680128592415,
+                                "duration": 230073
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_040:计划排程-物流 | 郝 ",
+                            "uid": "559804d66dc290fb",
+                            "parentUid": "44a6ab3e1c0014be3dab7192254b9575",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128481042,
+                                "stop": 1680128734731,
+                                "duration": 253689
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_067:商城-订单变更-物流 |孙",
+                            "uid": "5fed7b0e80e5a5d",
+                            "parentUid": "44a6ab3e1c0014be3dab7192254b9575",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680129431291,
+                                "stop": 1680129799786,
+                                "duration": 368495
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_041:计划排程-物流 | 雷",
+                            "uid": "8eb167f2cd3264a6",
+                            "parentUid": "44a6ab3e1c0014be3dab7192254b9575",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680131435659,
+                                "stop": 1680131619594,
+                                "duration": 183935
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_066：手工申请-订单变更-物流 |邓",
+                            "uid": "5230bf49d9805928",
+                            "parentUid": "44a6ab3e1c0014be3dab7192254b9575",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680131476433,
+                                "stop": 1680131603561,
+                                "duration": 127128
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_042:计划排程-物流 | 雷",
+                            "uid": "dfa37bd75075de70",
+                            "parentUid": "44a6ab3e1c0014be3dab7192254b9575",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680131619705,
+                                "stop": 1680131811722,
+                                "duration": 192017
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_068：外部系统申请-订单变更-物流 |邓",
+                            "uid": "93fd7c0ae6adc6b8",
+                            "parentUid": "44a6ab3e1c0014be3dab7192254b9575",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680132316815,
+                                "stop": 1680132449649,
+                                "duration": 132834
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        }
+                    ],
+                    "uid": "44a6ab3e1c0014be3dab7192254b9575"
+                },
+                {
+                    "name": "订单子流程",
+                    "children": [
+                        {
+                            "name": "XT_OLD_017：手工订单-订单变更 | 高",
+                            "uid": "a3a585bf4b7b221f",
+                            "parentUid": "417202c88f3160047dc178f309de8903",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128275485,
+                                "stop": 1680128427856,
+                                "duration": 152371
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_OLD_018：手工订单-订单变更(已确认) | 高",
+                            "uid": "f504dfdc044733c1",
+                            "parentUid": "417202c88f3160047dc178f309de8903",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128427900,
+                                "stop": 1680128526386,
+                                "duration": 98486
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_091：订单关闭 | 伍",
+                            "uid": "417cf05373395d7",
+                            "parentUid": "417202c88f3160047dc178f309de8903",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128491639,
+                                "stop": 1680128634902,
+                                "duration": 143263
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_037:申请-寻源-订单 |孙",
+                            "uid": "2889eeac6dcb9d1",
+                            "parentUid": "417202c88f3160047dc178f309de8903",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128560982,
+                                "stop": 1680128723786,
+                                "duration": 162804
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_069:寻源-订单变更 | 雷 ",
+                            "uid": "eb68ee87273a043a",
+                            "parentUid": "417202c88f3160047dc178f309de8903",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128592615,
+                                "stop": 1680128785100,
+                                "duration": 192485
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_092：订单关闭 | 伍",
+                            "uid": "3a5847c1fa5c4546",
+                            "parentUid": "417202c88f3160047dc178f309de8903",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128634974,
+                                "stop": 1680128746282,
+                                "duration": 111308
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_049:申请变更-订单变更 |孙",
+                            "uid": "7114ea9304ce657f",
+                            "parentUid": "417202c88f3160047dc178f309de8903",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128723828,
+                                "stop": 1680128897334,
+                                "duration": 173506
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_072:手工申请-订单取消 | 雷 ",
+                            "uid": "8b21da57738550ea",
+                            "parentUid": "417202c88f3160047dc178f309de8903",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128785211,
+                                "stop": 1680128888552,
+                                "duration": 103341
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_083:订单关闭 | 徐 ",
+                            "uid": "e6ece12e88b17b7e",
+                            "parentUid": "417202c88f3160047dc178f309de8903",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128830612,
+                                "stop": 1680129071470,
+                                "duration": 240858
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_075:目录化-订单取消 | 雷 ",
+                            "uid": "24a34f1cc2e9b0fb",
+                            "parentUid": "417202c88f3160047dc178f309de8903",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128888656,
+                                "stop": 1680128975498,
+                                "duration": 86842
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_076:目录化-订单取消 | 雷 ",
+                            "uid": "1daf806e9656d7de",
+                            "parentUid": "417202c88f3160047dc178f309de8903",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128975623,
+                                "stop": 1680129280097,
+                                "duration": 304474
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_085:订单关闭 | 徐 ",
+                            "uid": "eb07a1f8e78c87bd",
+                            "parentUid": "417202c88f3160047dc178f309de8903",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680129223540,
+                                "stop": 1680129751911,
+                                "duration": 528371
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_080:寻源-订单取消 | 雷",
+                            "uid": "ce75e1c02e613bfd",
+                            "parentUid": "417202c88f3160047dc178f309de8903",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680129280153,
+                                "stop": 1680129543831,
+                                "duration": 263678
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_081:订单取消 | 雷",
+                            "uid": "f70ee57b3db1fdce",
+                            "parentUid": "417202c88f3160047dc178f309de8903",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680129543870,
+                                "stop": 1680129673041,
+                                "duration": 129171
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_082:订单取消 | 雷",
+                            "uid": "77b736f4c8e27a78",
+                            "parentUid": "417202c88f3160047dc178f309de8903",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680129673085,
+                                "stop": 1680129776108,
+                                "duration": 103023
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_089:订单关闭 | 邓 ",
+                            "uid": "c7c64427c8f62c75",
+                            "parentUid": "417202c88f3160047dc178f309de8903",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680129751996,
+                                "stop": 1680129891153,
+                                "duration": 139157
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_090:订单关闭 | 邓 ",
+                            "uid": "e9aac08106260173",
+                            "parentUid": "417202c88f3160047dc178f309de8903",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680129891215,
+                                "stop": 1680129989962,
+                                "duration": 98747
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_122:排程子流程 | 邓 ",
+                            "uid": "d7a4bc4ebbe6108b",
+                            "parentUid": "417202c88f3160047dc178f309de8903",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680129990007,
+                                "stop": 1680130110011,
+                                "duration": 120004
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_071：商城手工申请-订单取消 | 徐",
+                            "uid": "f419888f2c1573f7",
+                            "parentUid": "417202c88f3160047dc178f309de8903",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680131047175,
+                                "stop": 1680131226337,
+                                "duration": 179162
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_073:电商-订单取消 | 陈锦超",
+                            "uid": "682b4fb993c668aa",
+                            "parentUid": "417202c88f3160047dc178f309de8903",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680131226402,
+                                "stop": 1680131281341,
+                                "duration": 54939
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_074:电商-订单取消 | 陈锦超",
+                            "uid": "392a57e872f47eea",
+                            "parentUid": "417202c88f3160047dc178f309de8903",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680131281375,
+                                "stop": 1680131335624,
+                                "duration": 54249
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_070：协议-订单变更-物流 | 徐",
+                            "uid": "1fea589392db1259",
+                            "parentUid": "417202c88f3160047dc178f309de8903",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680131603657,
+                                "stop": 1680131699842,
+                                "duration": 96185
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_077：协议-订单取消 |邓",
+                            "uid": "1a780d7646d67608",
+                            "parentUid": "417202c88f3160047dc178f309de8903",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680131699934,
+                                "stop": 1680131734745,
+                                "duration": 34811
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_078：SRM申请-订单取消 |邓",
+                            "uid": "7a011e547bf2e648",
+                            "parentUid": "417202c88f3160047dc178f309de8903",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680131734773,
+                                "stop": 1680131829507,
+                                "duration": 94734
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_079：ERP申请-订单取消 |邓",
+                            "uid": "53e90cd9e9225b37",
+                            "parentUid": "417202c88f3160047dc178f309de8903",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680132449808,
+                                "stop": 1680132578913,
+                                "duration": 129105
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_088:订单关闭 | 邓 ",
+                            "uid": "2a112278a9bf0afb",
+                            "parentUid": "417202c88f3160047dc178f309de8903",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680132578980,
+                                "stop": 1680132754797,
+                                "duration": 175817
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        }
+                    ],
+                    "uid": "417202c88f3160047dc178f309de8903"
+                },
+                {
+                    "name": "结算子流程",
+                    "children": [
+                        {
+                            "name": "XT_093：费用单创建-不含税-工作流-供应商审核 | 高 ",
+                            "uid": "38099da8b27e5690",
+                            "parentUid": "01dc3167b1b6303a4423941559d80cbe",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128488106,
+                                "stop": 1680128516249,
+                                "duration": 28143
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_094：费用单创建-不含税-工作流-供应商审核 | 高 ",
+                            "uid": "fc7c1c65c3c26def",
+                            "parentUid": "01dc3167b1b6303a4423941559d80cbe",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128516271,
+                                "stop": 1680128535628,
+                                "duration": 19357
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_095：费用单创建-含税-功能审批-供应商审核 | 高 ",
+                            "uid": "b46553021fd7b4bd",
+                            "parentUid": "01dc3167b1b6303a4423941559d80cbe",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128535644,
+                                "stop": 1680128561458,
+                                "duration": 25814
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        }
+                    ],
+                    "uid": "01dc3167b1b6303a4423941559d80cbe"
+                },
+                {
+                    "name": "质检子流程",
+                    "children": [
+                        {
+                            "name": "XT_109:质量检验-索赔 | 徐",
+                            "uid": "5fe8e15c9dc4d3cf",
+                            "parentUid": "cccb4f840810808fbdc0ea0644915d23",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128575243,
+                                "stop": 1680128591015,
+                                "duration": 15772
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_114:质量检验-子流程 | 徐",
+                            "uid": "89ccaa5e9f599113",
+                            "parentUid": "cccb4f840810808fbdc0ea0644915d23",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128591045,
+                                "stop": 1680128594533,
+                                "duration": 3488
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_115:质量检验-子流程 | 徐",
+                            "uid": "e82b3898eff36ac",
+                            "parentUid": "cccb4f840810808fbdc0ea0644915d23",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128594539,
+                                "stop": 1680128616101,
+                                "duration": 21562
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_116:质量整改-子流程 | 徐",
+                            "uid": "e2c7373026e25f8e",
+                            "parentUid": "cccb4f840810808fbdc0ea0644915d23",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128616115,
+                                "stop": 1680128636749,
+                                "duration": 20634
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_117:质量整改-子流程 | 徐",
+                            "uid": "27be4981d36e7d83",
+                            "parentUid": "cccb4f840810808fbdc0ea0644915d23",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128636767,
+                                "stop": 1680128653158,
+                                "duration": 16391
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_119:索赔-子流程 | 徐",
+                            "uid": "ab4a6efc83d46fa4",
+                            "parentUid": "cccb4f840810808fbdc0ea0644915d23",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128653177,
+                                "stop": 1680128662088,
+                                "duration": 8911
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_120:索赔-子流程 | 徐",
+                            "uid": "b9d6f2b1647d2b59",
+                            "parentUid": "cccb4f840810808fbdc0ea0644915d23",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128662103,
+                                "stop": 1680128674275,
+                                "duration": 12172
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_121:索赔-子流程 | 徐",
+                            "uid": "198a8b2a8a26c103",
+                            "parentUid": "cccb4f840810808fbdc0ea0644915d23",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128674293,
+                                "stop": 1680128685444,
+                                "duration": 11151
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        }
+                    ],
+                    "uid": "cccb4f840810808fbdc0ea0644915d23"
+                },
+                {
+                    "name": "质量",
+                    "children": [
+                        {
+                            "name": "XT_106：质量检验-索赔 | 伍",
+                            "uid": "e97a3d40c2efaeab",
+                            "parentUid": "68fbd880a6b8482d135afe614f803c60",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680128795774,
+                                "stop": 1680129140689,
+                                "duration": 344915
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_107：质量检验-索赔 | 伍",
+                            "uid": "66e97ce54c8175b1",
+                            "parentUid": "68fbd880a6b8482d135afe614f803c60",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680129140736,
+                                "stop": 1680129207101,
+                                "duration": 66365
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_108：质量检验-索赔 | 伍",
+                            "uid": "b1a89a53b888a8aa",
+                            "parentUid": "68fbd880a6b8482d135afe614f803c60",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680129207351,
+                                "stop": 1680129271780,
+                                "duration": 64429
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_118：索赔子流程 | 伍",
+                            "uid": "e9b6cd16511e3d4f",
+                            "parentUid": "68fbd880a6b8482d135afe614f803c60",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680129271795,
+                                "stop": 1680129333206,
+                                "duration": 61411
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_128：索赔子流程 | 伍",
+                            "uid": "2e20dacc93ae9c33",
+                            "parentUid": "68fbd880a6b8482d135afe614f803c60",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680129333233,
+                                "stop": 1680129504185,
+                                "duration": 170952
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_110:质量检验-质量整改 |孙",
+                            "uid": "c49fc007e861c33d",
+                            "parentUid": "68fbd880a6b8482d135afe614f803c60",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680129799987,
+                                "stop": 1680129819690,
+                                "duration": 19703
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_111:质量检验-质量整改 |孙",
+                            "uid": "809c45e94da02e68",
+                            "parentUid": "68fbd880a6b8482d135afe614f803c60",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680129819720,
+                                "stop": 1680129850094,
+                                "duration": 30374
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_112:质量检验-质量整改 |孙",
+                            "uid": "4244e726b4acd089",
+                            "parentUid": "68fbd880a6b8482d135afe614f803c60",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680129850125,
+                                "stop": 1680129864426,
+                                "duration": 14301
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_113:质量检验-质量整改 |孙",
+                            "uid": "34d10fd082165ef3",
+                            "parentUid": "68fbd880a6b8482d135afe614f803c60",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680129864452,
+                                "stop": 1680129877036,
+                                "duration": 12584
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_123:质量整改-子流程 | 邓 ",
+                            "uid": "c566266b11ae2dfc",
+                            "parentUid": "68fbd880a6b8482d135afe614f803c60",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680130110056,
+                                "stop": 1680130164049,
+                                "duration": 53993
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_124:质量整改-子流程  | 邓 ",
+                            "uid": "11f8714e9b618a40",
+                            "parentUid": "68fbd880a6b8482d135afe614f803c60",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680130164062,
+                                "stop": 1680130221138,
+                                "duration": 57076
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_125:索赔-子流程 | 邓 ",
+                            "uid": "997b082b18aad7d",
+                            "parentUid": "68fbd880a6b8482d135afe614f803c60",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680130221151,
+                                "stop": 1680130258066,
+                                "duration": 36915
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_126:索赔-子流程 | 邓 ",
+                            "uid": "b2279bc948d34bb2",
+                            "parentUid": "68fbd880a6b8482d135afe614f803c60",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680130258089,
+                                "stop": 1680130322103,
+                                "duration": 64014
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_127:索赔-子流程 | 邓 ",
+                            "uid": "dc2016426fbdc763",
+                            "parentUid": "68fbd880a6b8482d135afe614f803c60",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680130322121,
+                                "stop": 1680130357561,
+                                "duration": 35440
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_129:索赔-子流程 | 邓",
+                            "uid": "1da7a7ab9733d718",
+                            "parentUid": "68fbd880a6b8482d135afe614f803c60",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680130357576,
+                                "stop": 1680130395269,
+                                "duration": 37693
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        }
+                    ],
+                    "uid": "68fbd880a6b8482d135afe614f803c60"
+                },
+                {
+                    "name": "物料认证",
+                    "children": [
+                        {
+                            "name": "XT_136：物料认证 | 伍",
+                            "uid": "cc5da94a0afe35d6",
+                            "parentUid": "9d6462d16d9f6e8a171ff4142718fb76",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680129504210,
+                                "stop": 1680129741357,
+                                "duration": 237147
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_137：物料认证 | 伍",
+                            "uid": "441f4f7afa3eb5d2",
+                            "parentUid": "9d6462d16d9f6e8a171ff4142718fb76",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680129741416,
+                                "stop": 1680129888631,
+                                "duration": 147215
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_138:物料认证 | 伍 ",
+                            "uid": "9acba26543305449",
+                            "parentUid": "9d6462d16d9f6e8a171ff4142718fb76",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680130395286,
+                                "stop": 1680130489219,
+                                "duration": 93933
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "XT_139:物料认证 | 伍 ",
+                            "uid": "4643be9a341d5d2b",
+                            "parentUid": "9d6462d16d9f6e8a171ff4142718fb76",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680130489248,
+                                "stop": 1680130593910,
+                                "duration": 104662
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        }
+                    ],
+                    "uid": "9d6462d16d9f6e8a171ff4142718fb76"
+                }
+            ],
+            "uid": "215c29f69d7629fa580ebc533a3d9bc5"
+        },
+        {
+            "name": "平台组件",
+            "children": [
+                {
+                    "name": "工作流",
+                    "children": [
+                        {
+                            "name": "PT_001:工作流001 | 高 ",
+                            "uid": "8aeb8eb589965e5d",
+                            "parentUid": "c6423c8631a1ba37139f11b9fe2c786a",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680127303568,
+                                "stop": 1680127505202,
+                                "duration": 201634
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "PT_002:工作流002 | 高 ",
+                            "uid": "e5d6b36930fd8921",
+                            "parentUid": "c6423c8631a1ba37139f11b9fe2c786a",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680127505221,
+                                "stop": 1680127626878,
+                                "duration": 121657
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "PT_003:工作流003 | 高 ",
+                            "uid": "6258afd66a206a86",
+                            "parentUid": "c6423c8631a1ba37139f11b9fe2c786a",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680127626899,
+                                "stop": 1680127771493,
+                                "duration": 144594
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "PT_004:工作流004 | 高 ",
+                            "uid": "6e34fd57c2ffa59f",
+                            "parentUid": "c6423c8631a1ba37139f11b9fe2c786a",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680127771511,
+                                "stop": 1680127894604,
+                                "duration": 123093
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        },
+                        {
+                            "name": "PT_005:工作流005 | 高 ",
+                            "uid": "e514451808e0e5a0",
+                            "parentUid": "c6423c8631a1ba37139f11b9fe2c786a",
+                            "status": "passed",
+                            "time": {
+                                "start": 1680127894625,
+                                "stop": 1680127977088,
+                                "duration": 82463
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        }
+                    ],
+                    "uid": "c6423c8631a1ba37139f11b9fe2c786a"
+                }
+            ],
+            "uid": "34dcc3b6f16c8d1badbfa3a070f22fec"
+        }
+    ]
+}

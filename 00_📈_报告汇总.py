@@ -1,54 +1,73 @@
-import numpy as np
+import json
+from datetime import datetime
+
 import streamlit as st
 import pandas as pd
-import requests
-from requests.auth import HTTPBasicAuth
-from public import config
 
-config.style(title="⛅ 报告汇总")
+from data import examples
+from public import initialize
 
-JENKINS_JOB_URL = "http://localhost:7000/job"
-basic = HTTPBasicAuth("admin", "75ea5044422d447f8ad625a0572847ec")
+project, env = initialize.setup(title="⛅ 报告汇总")
 
 
 @st.cache_data
-def from_jenkins_allure(project: str):
-    url = f"{JENKINS_JOB_URL}/{project}/allure/widgets/history-trend.json"
-    trend = requests.get(url, auth=basic).json()[:10]
-    report_urls = [report.get("reportUrl") for report in trend]
-    report_data = [report.get("data") for report in trend]
-    passed = [report.get("passed") for report in report_data]
-    total = [report.get("total") for report in report_data]
-
-    rend = {
-        "在线报告": report_urls,
-        "用例总数": total,
-        "执行成功": passed,
-        "执行失败": [total - passed for passed, total in zip(passed, total)],
-        "成功率": [f"{(passed / total) * 100:.2f}%" for passed, total in zip(passed, total)],
-    }
-    return {"history_trend": rend}
-
-
-reports, trend, code = st.tabs(["报告汇总", "质量趋势", "代码规范"])
-
-with reports:
-    data = from_jenkins_allure(project="pytest-demo")
-    history_trend = pd.DataFrame(
-        data=data.get("history_trend"),
-        index=None,
+def read_examples_history():
+    _history_data = json.load(open(examples.joinpath("history-trend.json"), "rb"))
+    return pd.DataFrame(
+        [list(data.get("data").values())[:-2] for data in _history_data],
+        columns=[
+            "failed",
+            "broken",
+            "skipped",
+            "passed",
+        ],
     )
-    st.write(history_trend)
 
-with trend:
-    chart_data = pd.DataFrame(np.random.randn(20, 3), columns=["a", "b", "c"])
-    st.line_chart(chart_data)
 
-with code:
-    col1, col2, col3 = st.columns(3)
-    col1.metric("Temperature", "70 °F", "1.2 °F")
-    col2.metric("Wind", "9 mph", "-8%")
-    col3.metric("Humidity", "86%", "4%")
+history = read_examples_history()
 
-    chart_data = pd.DataFrame(np.random.randn(20, 3), columns=["a", "b", "c"])
-    st.area_chart(chart_data)
+latest = datetime.now()  # fake
+st.markdown(f"最新执行日期: {latest.strftime('%Y-%m-%d %H:%M:%S')}")
+col_date, *_ = st.columns(3)
+d = col_date.date_input("选择报告日期", latest)
+st.markdown(f"[在线报告](https://autotest-report.net/api/prod/standard/coor/{d.strftime('%Y%m%d%H%M%S')}/#)")
+
+col1, col2, col3, *_ = st.columns(6)
+col2.metric("通过率", "95%", "5%")
+col1.metric("用例数", "500", "10")
+col3.metric("失败率", "5%", "-5%")
+
+col_area, col_results, *_ = st.columns(3)
+col_area.area_chart(history, use_container_width=True)
+
+
+@st.cache_data
+def read_examples_behaviors():
+    results = []
+    _behaviors = json.load(open(examples.joinpath("behaviors.json"), "rb"))
+
+    def read_behaviors(behaviors: dict):
+        if isinstance(behaviors, dict):
+            if children := behaviors.get("children"):
+                read_behaviors(children)
+            else:
+                name = str(behaviors.get("name")).strip().replace("：", "#").replace(":", "#").replace("|", "#")
+                try:
+                    code, name, author = [case.strip() for case in name.split("#") if name.count("#") == 2]
+                    if behaviors.get("status") == "failed":
+                        results.append(
+                            {
+                                "编码": code,
+                                "名称": name,
+                                "状态": behaviors.get("status"),
+                                "作者": author,
+                            }
+                        )
+                except ValueError:
+                    pass
+        else:
+            for behavior in behaviors:
+                read_behaviors(behavior)
+        return results
+
+    return pd.DataFrame(read_behaviors(_behaviors))

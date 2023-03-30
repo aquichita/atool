@@ -1,9 +1,9 @@
 import streamlit as st
 from curd import sample
-from public import config
+from public import initialize
 
 
-config.style(title="📝脚本模板生成")
+initialize.setup(title="📝脚本模板生成")
 
 with open(sample.statics.joinpath("E2E测试用例模板.xlsx"), "rb") as file:
     st.download_button(
