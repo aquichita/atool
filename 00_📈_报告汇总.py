@@ -27,12 +27,13 @@ def read_examples_history():
 history = read_examples_history()
 
 latest = datetime.now()  # fake
-st.markdown(f"最新执行日期: {latest.strftime('%Y-%m-%d %H:%M:%S')}")
 col_date, *_ = st.columns(3)
-d = col_date.date_input("选择报告日期", latest)
-st.markdown(f"[在线报告](https://autotest-report.net/api/prod/standard/coor/{d.strftime('%Y%m%d%H%M%S')}/#)")
+d = col_date.date_input("", latest)
+st.markdown(
+    f"[![执行报告](https://img.shields.io/badge/report-allure-green)](https://allure-framework.github.io/allure-demo)"
+)
 
-col1, col2, col3, *_ = st.columns(6)
+col1, col2, col3, *_ = st.columns(7)
 col2.metric("通过率", "95%", "5%")
 col1.metric("用例数", "500", "10")
 col3.metric("失败率", "5%", "-5%")
