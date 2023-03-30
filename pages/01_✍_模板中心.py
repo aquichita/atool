@@ -13,7 +13,8 @@ with open(statics.joinpath("E2E测试用例模板.xlsx"), "rb") as file:
         mime="xlsx",
     )
 
-uploaded_file = st.file_uploader(
+col_file_uploader, *_ = st.columns(2)
+uploaded_file = col_file_uploader.file_uploader(
     label="上传用例附件",
     type="xlsx",
     accept_multiple_files=False,
