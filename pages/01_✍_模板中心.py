@@ -3,7 +3,7 @@ import initialize
 from utils import statics, case_template
 
 
-initialize.setup(title="📝Script sample from case template.")
+initialize.setup(title="📝脚本模板生成")
 
 with open(statics.joinpath("E2ECaseTemplate.xlsx"), "rb") as file:
     st.download_button(
