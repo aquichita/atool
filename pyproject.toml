@@ -10,7 +10,6 @@ packages = [{include = "atool"}]
 python = "^3.11"
 streamlit = "^1.20.0"
 openpyxl = "^3.1.2"
-streamlit-extras = "^0.2.6"
 
 
 [build-system]

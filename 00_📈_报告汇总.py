@@ -4,7 +4,7 @@ import streamlit as st
 
 import initialize
 
-initialize.setup(title="⛅ 报告汇总")
+initialize.setup()
 
 select_project, select_env, _, passed, failed, total = st.columns(6)
 project = select_project.selectbox("🚩项目", ("演示项目",), index=0)
@@ -25,9 +25,7 @@ def read_allure_report():
 
 
 report = read_allure_report()
-st.markdown(
-    f"[![Report online.](https://img.shields.io/badge/report-allure-green)]({REPORT_BASE_URL})"
-)
+st.markdown(f"[![Report online.](https://img.shields.io/badge/report-allure-green)]({REPORT_BASE_URL})")
 
 trend = [history.get("data") for history in report.get("history")]
 trend2 = trend[:2]
@@ -41,16 +39,8 @@ total.metric("Total", f"{totals[0]}", f"{totals[0]-totals[1]}")
 
 table_history, table_failed = st.columns(2)
 table_history.markdown("*执行汇总*")
-table_history.write(
-    pd.DataFrame(
-        trend,
-        columns=["passed", "failed", "broken", "skipped", "unknown", "total"],
-    )
-)
+table_history_data = pd.DataFrame(trend, columns=["passed", "failed", "broken", "skipped", "unknown", "total"])
+table_history.write(table_history_data, use)
+
 table_failed.markdown("*失败汇总*")
-table_failed.write(
-    pd.DataFrame(
-        trend,
-        columns=["passed", "failed", "broken", "skipped", "unknown", "total"],
-    )
-)
+table_failed.write(table_history_data)

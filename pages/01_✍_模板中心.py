@@ -3,13 +3,19 @@ import initialize
 from utils import statics, case_template
 
 
-initialize.setup(title="📝脚本模板生成")
+initialize.setup()
 
-with open(statics.joinpath("E2ECaseTemplate.xlsx"), "rb") as file:
+templates = {
+    "E2E": "E2ECaseTemplate.xlsx",
+}
+select_template, *_ = st.columns(6)
+template = select_template.selectbox("🍪*用例模板*", ("E2E",), index=0)
+
+with open(statics.joinpath(templates.get(template)), "rb") as file:
     st.download_button(
-        label=":arrow_down: E2ECaseTemplate.xlsx",
+        label=f":arrow_down: {template} template",
         data=file,
-        file_name="E2ECaseTemplate.xlsx",
+        file_name=templates.get(template),
         mime="xlsx",
     )
 
