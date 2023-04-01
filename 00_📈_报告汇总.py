@@ -6,12 +6,6 @@ import initialize
 
 initialize.setup()
 
-select_project, select_env, _, passed, failed, total = st.columns(6)
-project = select_project.selectbox("🚩项目", ("演示项目",), index=0)
-env = select_env.selectbox("🌦️环境", ("测试", "生产", "演示"), index=0)
-
-st.session_state.project = project
-st.session_state.env = env
 
 REPORT_BASE_URL = "https://allure-framework.github.io/allure-demo/5"
 st.markdown(f"[![Report online.](https://img.shields.io/badge/report-allure-green)]({REPORT_BASE_URL})")
@@ -41,6 +35,7 @@ metrics = trend[:2]
 total1, total2 = totals = [history.get("total") for history in metrics]
 rate1, rate2 = rates = [(history.get("passed") / history.get("total")) * 100 for history in metrics]
 
+passed, failed, total, *_ = st.columns(6)
 passed.metric("Passed", f"{rate1:.2f}%", f"{(rate1-rate2):.2f}%")
 failed.metric("Failed", f"{(100-rate1):.2f}%", f"{(rate2-rate1):.2f}%")
 total.metric("Total", f"{total1}", f"{total1-total2}")
