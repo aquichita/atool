@@ -14,33 +14,42 @@ st.session_state.project = project
 st.session_state.env = env
 
 REPORT_BASE_URL = "https://allure-framework.github.io/allure-demo/5"
+st.markdown(f"[![Report online.](https://img.shields.io/badge/report-allure-green)]({REPORT_BASE_URL})")
 
 
 @st.cache_data
-def read_allure_report():
-    history = requests.get(f"{REPORT_BASE_URL}/widgets/history-trend.json").json()
+def read_history_form_allure():
+    response = requests.get(f"{REPORT_BASE_URL}/widgets/history-trend.json")
     return {
-        "history": history,
+        "history": response.json(),
     }
 
 
-report = read_allure_report()
-st.markdown(f"[![Report online.](https://img.shields.io/badge/report-allure-green)]({REPORT_BASE_URL})")
+@st.cache_data
+def read_suites_form_allure():
+    response = requests.get(f"{REPORT_BASE_URL}/data/suites.json")
+    return {
+        "suites": response.json().get("children"),
+    }
 
-trend = [history.get("data") for history in report.get("history")]
-trend2 = trend[:2]
-totals = [history.get("total") for history in trend2]
-rates = [(history.get("passed") / history.get("total")) * 100 for history in trend2]
 
-passed.metric("Passed", f"{rates[0]:.2f}%", f"{(rates[0]-rates[1]):.2f}%")
-failed.metric("Failed", f"{(100-rates[0]):.2f}%", f"{(rates[1]-rates[0]):.2f}%")
-total.metric("Total", f"{totals[0]}", f"{totals[0]-totals[1]}")
+history = read_history_form_allure()
+
+trend = [history.get("data") for history in history.get("history")]
+
+metrics = trend[:2]
+total1, total2 = totals = [history.get("total") for history in metrics]
+rate1, rate2 = rates = [(history.get("passed") / history.get("total")) * 100 for history in metrics]
+
+passed.metric("Passed", f"{rate1:.2f}%", f"{(rate1-rate2):.2f}%")
+failed.metric("Failed", f"{(100-rate1):.2f}%", f"{(rate2-rate1):.2f}%")
+total.metric("Total", f"{total1}", f"{total1-total2}")
 
 
 table_history, table_failed = st.columns(2)
 table_history.markdown("*执行汇总*")
 table_history_data = pd.DataFrame(trend, columns=["passed", "failed", "broken", "skipped", "unknown", "total"])
-table_history.write(table_history_data, use)
+table_history.write(table_history_data)
 
 table_failed.markdown("*失败汇总*")
 table_failed.write(table_history_data)
